@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrBolero</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__fixed">
+        <div class="header-fixed__heading">
+          <div class="container">
+            <div class="header-fixed__inner">
+              <div class="header-fixed__content">
+                <div class="heading__logo">
+                  <a href="index.html">
+                    <img src="image/logo1.png" alt="Logo" />
+                  </a>
+                </div>
+                <div class="heading__search">
+                  <input type="text" placeholder="Tìm kiếm" />
+                  <span id="search" class="material-icons-outlined">
+                    search
+                  </span>
+                  <span id="mic" class="material-icons-outlined"> mic </span>
+                </div>
+                <div class="heading__logIn-signUp">
+                  <span>
+                    <a href="logIn.html">Đăng nhập</a>
+                  </span>
+                  <span>
+                    <a href="signUp.html">Đăng ký</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-fixed__nav">
+          <div class="container">
+            <div class="header-fixed__inner">
+              <div class="header-fixed__content">
+                <nav class="header-fixed__menu">
+                  <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="reservation.html">Đặt chỗ</a></li>
+                    <li>
+                      <a href="singer.html">Ca sĩ</a>
+                      <div class="singer-dropdown">
+                        <ul>
+                          <li><a href="#">Đàm Vĩnh Hưng</a></li>
+                          <li><a href="#">Hiền Thục</a></li>
+                          <li><a href="#">Lệ Quyên</a></li>
+                          <li><a href="#">Quang Lê</a></li>
+                          <li><a href="#">Thu Hằng</a></li>
+                          <li><a href="#">Đan Trường</a></li>
+                          <li><a href="#">Dương Ngọc Thái</a></li>
+                          <li><a href="#">Mạnh Quỳnh</a></li>
+                          <li><a href="#">Đan Nguyên</a></li>
+                          <li><a href="#">Anh Thơ</a></li>
+                          <li><a href="#">Ngọc Sơn</a></li>
+                          <li><a href="#">Đồng Thanh Tâm</a></li>
+                          <li><a href="#">Quốc Đại</a></li>
+                          <li><a href="#">Minh Tuyết</a></li>
+                          <li><a href="#">Tố My</a></li>
+                          <li><a href="#">Trường Vũ</a></li>
+                          <li><a href="#">Như Quỳnh</a></li>
+                          <li><a href="#">Thanh Lan</a></li>
+                          <li><a href="#">Hương Lan</a></li>
+                          <li><a href="#">Hồ Phương Liên</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="sale.html">Khuyến mãi</a></li>
+                    <li><a href="history.html">Lịch sử</a></li>
+                    <li>
+                      <a href="#" class="btn-aboutUs">Giới thiệu</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__slider">
+        <div class="header-slider__content">
+          <div class="slide"></div>
+          <span id="right" class="material-icons-outlined">
+            arrow_forward_ios
+          </span>
+          <span id="left" class="material-icons-outlined">
+            arrow_back_ios
+          </span>
+          <div class="slider-grp-num">
+            <span class="slider-num"></span>
+            <span class="slider-num"></span>
+            <span class="slider-num"></span>
+            <span class="slider-num"></span>
+            <span class="slider-num"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="sub-line">
+      <div class="container">
+        <div class="sub-line__inner">
+          <div class="sub-line__content">
+            <hr />
+            <span>Mới nhất</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="body">
+      <div class="container">
+        <div class="body__inner">
+          <div class="body__content">
+            <div class="body__main">
+              <div class="body-main__interface">
+                <div class="main-intereface__rank">
+                  <div class="rank__num">
+                    <div class="rank-num__name">
+                      <p>Top 1</p>
+                      <a href="#">Phòng trà Không Tên</a>
+                    </div>
+                    <div class="rank__star-cmt">
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                    </div>
+                  </div>
+
+                  <div class="rank__num">
+                    <div class="rank-num__name">
+                      <p>Top 2</p>
+                      <a href="#">Phòng trà Ân Nam</a>
+                    </div>
+                    <div class="rank__star-cmt">
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                    </div>
+                  </div>
+
+                  <div class="rank__num">
+                    <div class="rank-num__name">
+                      <p>Top 3</p>
+                      <a href="#">Phòng trà Tiếng Xưa</a>
+                    </div>
+                    <div class="rank__star-cmt">
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                    </div>
+                  </div>
+
+                  <div class="rank__num">
+                    <div class="rank-num__name">
+                      <p>Top 4</p>
+                      <a href="#">Phòng trà Đồng Dao</a>
+                    </div>
+                    <div class="rank__star-cmt">
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                    </div>
+                  </div>
+
+                  <div class="rank__num">
+                    <div class="rank-num__name">
+                      <p>Top 5</p>
+                      <a href="#">Phòng trà Like Cafe</a>
+                    </div>
+                    <div class="rank__star-cmt">
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                      <span class="material-icons-outlined"> star </span>
+                    </div>
+                  </div>
+                </div>
+                <form class="main-interface__form">
+                  <label for="name">Họ & tên</label><br />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="VD: Lê Huy Bảo"
+                  /><br />
+                  <label for="telphone">Số điện thoại</label><br />
+                  <input
+                    type="tel"
+                    id="telphone"
+                    name="telphone"
+                    placeholder="Số di động"
+                  /><br />
+                  <label for="address">Tỉnh / Thành</label><br />
+                  <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Địa điểm quán"
+                  /><br />
+                  <label for="name-store">Tên quán</label><br />
+                  <input
+                    type="text"
+                    id="name-store"
+                    name="name-store"
+                    placeholder="VD: Phòng trà Không Tên"
+                  /><br />
+                  <label for="info">Thông tin</label>
+                  <div class="grp-info">
+                    <div class="grp-info-people">
+                      <label for="people">Số ngườI</label>
+                      <input
+                        type="number"
+                        id="num-person"
+                        name="num-person"
+                        value="10"
+                      />
+                    </div>
+                    <div class="grp-info-type-table">
+                      <label for="type">Loại bàn</label>
+                      <select
+                        name="type-table"
+                        id="type-table"
+                        value="Loại bàn"
+                      >
+                        <option>Thường</option>
+                        <option>VIP</option>
+                      </select>
+                    </div>
+                    <div class="grp-info-date">
+                      <label for="date">Ngày</label>
+                      <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        placeholder="Ngày"
+                      />
+                    </div>
+                    <div class="grp-info-time">
+                      <label for="time">Giờ</label>
+                      <input
+                        type="time"
+                        id="time"
+                        name="time"
+                        placeholder="Giờ"
+                      />
+                    </div>
+                  </div>
+                  <label for="note">Ghi chú</label><br />
+                  <textarea
+                    name="note"
+                    id="note"
+                    cols="30"
+                    rows="7"
+                    placeholder="Lời nhắn gửi đến quán"
+                  ></textarea
+                  ><br />
+                  <input type="submit" id="submit" name="submit" value="Gửi" />
+                </form>
+              </div>
+              <div class="body-main__banner">
+                <div class="banner__advertisement">
+                  <img src="image/banner1.jpg" alt="Quảng cáo Shopee" />
+                </div>
+                <div class="banner__advertisement">
+                  <img src="image/banner2.gif" alt="Quảng cáo Shopee" />
+                </div>
+                <div class="banner__advertisement">
+                  <img src="image/banner3.gif" alt="Quảng cáo Shopee" />
+                </div>
+                <div class="banner__advertisement">
+                  <img src="image/banner4.png" alt="Quảng cáo Shopee" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <div class="intro__content">
+            <h1 class="intro-title">Giới thiệu</h1>
+            <p class="intro-description">
+              TrBolero là một website dành cho các tín đồ Bolero. Dịch vụ này
+              được xây dựng từ một văn phòng nhỏ nhằm đáp ứng nhu cầu hiện nay
+              khi đi xem buổi hát Bolero lo hết chỗ. Hiện tại web chỉ đáp ứng
+              được hai địa điểm lớn đó là Hà Nội và Thành phố Hồ Chí Minh.
+              Website sử dụng một số hình thức hiện đại giúp người dùng dễ sử
+              dụng và tiếp cận với con người 4.0 nhanh hơn. Chi phí đặt chỗ
+              trước là hạt dẻ ngại gì mà không giữ một chỗ ngồi đep, thoải mái,
+              sang xịn mịn để tận hưởng âm nhạc. Dịch vụ TrBolero hứa hẹn không
+              làm mọi người thất vọng.
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d823.8434067692779!2d106.70539501669117!3d10.820359412977478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b6ec846b2b%3A0x757bcdf64ef8015f!2sChung%20c%C6%B0%20Mini!5e0!3m2!1svi!2s!4v1642907316704!5m2!1svi!2s"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comment">
+      <div class="container">
+        <div class="comment__inner">
+          <div class="comment__content">
+            <div class="comment__up">
+              <h2>Bạn nghĩ gì về chúng tôi</h2>
+              <hr />
+              <div class="cmt-up__star">
+                <span class="material-icons-outlined"> star </span>
+                <span class="material-icons-outlined"> star </span>
+                <span class="material-icons-outlined"> star </span>
+                <span class="material-icons-outlined"> star </span>
+                <span class="material-icons-outlined"> star </span>
+              </div>
+            </div>
+            <div class="comment__down">
+              <img src="image/account.png" alt="Avatar" />
+              <div class="cmt-down__form">
+                <div class="cmt-letter">
+                  <textarea
+                    name="cmt"
+                    id="cmt"
+                    cols="30"
+                    rows="5"
+                    placeholder="Viết bình luận"
+                  ></textarea>
+                </div>
+                <div class="cmt-submit">
+                  <input
+                    type="submit"
+                    id="cmt-send"
+                    name="cmt-send"
+                    value="Gửi"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact__img">
+        <img src="image/contact.png" alt="" />
+      </div>
+      <div class="contact__message">
+        <div class="message-name">
+          <h3>TrBolero</h3>
+        </div>
+        <div class="message-chat">
+          <span class="material-icons-outlined"> add_circle </span>
+          <div class="chat-box">
+            <input type="text" id="chat" name="chat" placeholder="Aa" />
+            <span class="material-icons-outlined"> insert_emoticon </span>
+          </div>
+          <span class="material-icons-outlined"> send </span>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__content">
+            <div class="footer__info-up">
+              <div class="info__about">
+                <h2>Về TrBolero</h2>
+                <ul>
+                  <li><a href="#">Giới thiệu về web trực tuyến</a></li>
+                  <li><a href="#">Chính sách bảo mật</a></li>
+                  <li><a href="#">Điều khoản TrBolero</a></li>
+                  <li><a href="#">Khuyến mãi</a></li>
+                  <li><a href="#">Hình thức mã QR</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+                </ul>
+              </div>
+              <div class="info__payment">
+                <h2>Thanh toán</h2>
+                <div class="grp-bank">
+                  <div class="bank-payment">
+                    <img src="image/thanhToan1.png" alt="JCB" />
+                  </div>
+                  <div class="bank-payment">
+                    <img src="image/thanhtoan2.png" alt="Napas" />
+                  </div>
+                  <div class="bank-payment">
+                    <img src="image/thanhtoan3.png" alt="Visa" />
+                  </div>
+                  <div class="bank-payment">
+                    <img src="image/thanhToan4.jpg" alt="MoMo" />
+                  </div>
+                  <div class="bank-payment">
+                    <img src="image/thanhToan5.png" alt="ZaloPay" />
+                  </div>
+                  <div class="bank-payment">
+                    <img src="image/thanhToan6.jpg" alt="ViettelPay" />
+                  </div>
+                  <div class="bank-payment">
+                    <img src="image/thanhToan7.png" alt="MasterCard" />
+                  </div>
+                </div>
+              </div>
+              <div class="info__confirm">
+                <h2>Chứng nhận</h2>
+                <div class="grp-logo-confirm">
+                  <div class="logo-confirm">
+                    <img src="image/confirm1.jpg" alt="" />
+                  </div>
+                  <div class="sub-block">
+                    <div class="logo-confirm">
+                      <img src="image/confirm2.png" alt="" />
+                    </div>
+                    <div class="logo-confirm">
+                      <img src="image/confirm3.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__info-down">
+              <div class="info-logo">
+                <img src="image/logo1.png" alt="Logo" />
+              </div>
+              <div class="contact-info">
+                <div class="contact-info-up">
+                  <div class="sub-contact-info-up">
+                    <div class="info-direct">
+                      <p class="hotline">Hotline: 0337.753.106</p>
+                      <p class="address">
+                        Địa chỉ: 482/3 Nơ Trang Long, phường 13, quận Bình
+                        Thạnh, Tp. Hồ Chí Minh
+                      </p>
+                    </div>
+                    <div class="info-indirect">
+                      <span class="icon-fb">
+                        <img src="image/fb-icon.png" alt="Facebook" />
+                      </span>
+                      <span class="icon-twitter">
+                        <img src="image/google-icon.png" alt="Google" />
+                      </span>
+                      <span class="icon-google">
+                        <img src="image/twitter-icon.png" alt="Twitter" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-info-down">
+                  <p>© 2022 TRBolero. All rights reserved.</p>
+                  <div class="link-address">
+                    <a href="#">@fb.com/trBolero2022</a>
+                    <a href="#">trbolero.vn@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
