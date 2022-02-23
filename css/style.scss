@@ -1381,7 +1381,7 @@ html {
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 40px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
 
         .icon-sign-up {
           @include flex;
@@ -1397,6 +1397,27 @@ html {
               height: 100%;
               cursor: pointer;
             }
+          }
+        }
+      }
+
+      .logIn-acc {
+        @include flex;
+        flex-direction: row;
+        padding: 15px 0;
+
+        p {
+          color: gray;
+          margin-right: 10px;
+        }
+
+        a {
+          text-decoration: none;
+          color: blue;
+
+          &:hover {
+            color: rgb(7, 170, 7);
+            transition: all 0.3s ease;
           }
         }
       }
@@ -1816,6 +1837,11 @@ html {
         background-color: #fff;
 
         &:hover {
+          transform: translate(0, -5px);
+          transition: all 0.5s ease;
+        }
+
+        &:hover {
           cursor: pointer;
         }
 
@@ -1827,6 +1853,7 @@ html {
         h3 {
           margin-left: 5px;
           height: 10%;
+          margin-top: 7px;
         }
 
         .star-cmt {
@@ -1904,3 +1931,4 @@ html {
     }
   }
 }
+//END đặt chỗ
